@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Jared",
+        "role": "Manager",
+        "email": "jared@fakeemail.com",
+        "office-number": "1"
+        
+    },
+    {
+        "id": 2,
+        "name": "Alec",
+        "role": "Engineer",
+        "email": "alec@fakeemail.com",
+        "Github": "ibealec"
+    },
+    {
+        "id": 3,
+        "name": "Grace",
+        "role": "Engineer",
+        "email": "grace@fakemail.com",
+        "Github": "gchoi2u"
+    },
+    {
+        "id": 4,
+        "name": "Tammer",
+        "role": "Engineer",
+        "email": "tammer@fakeemail.com",
+        "Github": "tammerg"
+    },
+    {
+        "id": 5,
+        "name": "John",
+        "role": "Intern",
+        "email": "john@fakeemail.com",
+        "School": "2University"
+    }
+]
