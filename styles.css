@@ -1,8 +1,11 @@
-.header {
+.header-title {
     background-color: red;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    height: 75px;
+    font-size: 33px;
 }
 
-.header-title {
-    color: white;
-}
+
 
