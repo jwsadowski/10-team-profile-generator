@@ -61,6 +61,9 @@ class Employee {
 
 class Engineer extends Employee {
     constructor(github, getGithub, getRole) {
+        this.name = name
+        this.id = id
+        this.email = email
         this.github = github
         this.getGithub = getGithub
         this.getRole = getRole
@@ -70,6 +73,9 @@ class Engineer extends Employee {
 
 class Intern extends Employee {
     constructor(school, getSchool, getRole) {
+        this.name = name
+        this.id = id
+        this.email = email
         this.school = school
         this.getSchool = getSchool
         this.getRole = getRole
@@ -78,6 +84,9 @@ class Intern extends Employee {
 
 class Manager extends Employee {
     constructor(officeNumber, getRole) {
+        this.name = name
+        this.id = id
+        this.email = email
         this.officeNumber = officeNumber
         this.getRole = getRole
     }

@@ -1,4 +1,8 @@
-.container-fluid {
+.header {
     background-color: red;
+}
+
+.header-title {
     color: white;
 }
+
