@@ -16,7 +16,7 @@ const Engineer = require('../lib/engineer');
     });
 
 
- it("should throw and error if not provided a 'number' value", () => {
+ it("should throw an error if not provided a 'number' value", () => {
      const cb = new Engineer;
      const err = new Error(
          "Expected parameter 'number' to be a non empty string"

@@ -7,16 +7,19 @@ const Employee = require('../lib/employee');
             const name = "";
             const email = "";
             const role = "";
+            const school = "";
+            const officeNumber = 1;
             const employee = new Employee(name, id, email, school);
             expect(employee.id).toEqual(id);
             expect(employee.name).toEqual(name);
             expect(employee.email).toEqual(email);
             expect(employee.role).toEqual(role);
+            expect(employee.school).toEqual(school);
         })
     });
 
 
- it("should throw and error if not provided a 'number' value", () => {
+ it("should throw an error if not provided a 'number' value", () => {
      const cb = new Employee;
      const err = new Error(
          "Expected parameter 'number' to be a non empty string"

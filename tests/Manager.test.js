@@ -7,6 +7,7 @@ const Manager = require('../lib/manager');
             const name = "Jared"
             const email = "jared@fakeemail.com"
             const officeNumber = 1;
+            const school = "USC"
             const manager = new Manager(name, id, email, school);
             expect(manager.id).toEqual(id);
             expect(manager.name).toEqual(name);
@@ -16,7 +17,7 @@ const Manager = require('../lib/manager');
     });
 
 
- it("should throw and error if not provided a 'number' value", () => {
+ it("should throw an error if not provided a 'number' value", () => {
      const cb = new Manager;
      const err = new Error(
          "Expected parameter 'number' to be a non empty string"
