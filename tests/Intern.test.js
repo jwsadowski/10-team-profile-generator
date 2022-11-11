@@ -17,9 +17,13 @@ const Intern = require('../lib/intern');
 
 
  it("should throw an error if not provided a 'number' value", () => {
-     const cb = new Intern;
+     const id = "five";
+     const name = "John"
+     const email = "John@fakeemail.com"
+     const school = "UWM"
+     const intern = new Intern(name, id, email, school);
      const err = new Error(
-         "Expected parameter 'number' to be a non empty string"
+         "Expected parameter 'id' to be a number"
      );
-     expect(cb).toThrowError(err);
+     expect (() => intern.getId()).toThrowError(err);
  });
